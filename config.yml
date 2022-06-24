@@ -1,0 +1,35 @@
+baseURL: https://prismatic-gingersnap-bf3846.netlify.app
+languageCode: pt-br
+defaultContentLanguage: pt
+title: ABAIXO DO EQUADOR
+theme: "PaperMod"
+
+googleAnalytics: G-1VPZTZX8X9
+
+
+params:
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShareButtons: ["twitter", "whatsapp", "telegram", "facebook"] 
+  Label:
+    Icon: "logo.svg"
+    Text: " "
+    iconHeight: 30px
+
+menu:
+  main:
+    - identifier: tecnologia
+      name: Tecnologia
+      url: /
+      weight: 30
+    - identifier: cultura
+      name: Cultura
+      url: https://example.org
+      weight: 20
+
+minify:
+  minifyOutput: true
+
+disableKinds:
+- taxonomy
+- term
