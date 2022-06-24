@@ -12,7 +12,7 @@ params:
   ShowShareButtons: true
   ShareButtons: ["twitter", "whatsapp", "telegram", "facebook"] 
   Label:
-    Icon: "logo.svg"
+    Icon: "logo.png"
     Text: " "
     iconHeight: 30px
 
