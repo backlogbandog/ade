@@ -14,7 +14,7 @@ params:
   Label:
     Icon: "logo.png"
     Text: " "
-    iconHeight: 30px
+    iconHeight: 25px
 
 menu:
   main:

@@ -36,7 +36,8 @@
 }
 
 #theme-toggle svg {
-    height: 18px;
+    height: 25px;
+    color: var(--highlight);
 }
 
 button#theme-toggle {
