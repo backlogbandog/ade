@@ -3,18 +3,18 @@ languageCode: pt-br
 defaultContentLanguage: pt
 title: ABAIXO DO EQUADOR
 theme: "PaperMod"
-
 googleAnalytics: G-1VPZTZX8X9
 
 
 params:
+  ShowBreadCrumbs: true
   ShowReadingTime: true
   ShowShareButtons: true
   ShareButtons: ["twitter", "whatsapp", "telegram", "facebook"] 
   Label:
     Icon: "logo.png"
     Text: " "
-    iconHeight: 25px
+    iconHeight: 32px
 
 menu:
   main:
@@ -24,6 +24,10 @@ menu:
       weight: 30
     - identifier: cultura
       name: Cultura
+      url: https://example.org
+      weight: 20
+    - identifier: opinião
+      name: Opinião
       url: https://example.org
       weight: 20
 
